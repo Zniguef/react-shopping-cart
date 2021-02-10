@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import formatCarrency from './util'
+import formatCarrency from '../util'
 
 export default class Products extends Component {
     render() {
