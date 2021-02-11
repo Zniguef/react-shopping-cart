@@ -100,7 +100,7 @@ class App extends React.Component {
         </main>
   
         <footer>
-          All Right Is Riserved.
+          All right is riserved.
         </footer>
       </div>
     );
