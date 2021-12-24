@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-shopping-cart/static/css/main.0e3b1f80.chunk.css",
+    "main.js": "/react-shopping-cart/static/js/main.41f714af.chunk.js",
+    "main.js.map": "/react-shopping-cart/static/js/main.41f714af.chunk.js.map",
+    "runtime-main.js": "/react-shopping-cart/static/js/runtime-main.0854746b.js",
+    "runtime-main.js.map": "/react-shopping-cart/static/js/runtime-main.0854746b.js.map",
+    "static/js/2.5b27f472.chunk.js": "/react-shopping-cart/static/js/2.5b27f472.chunk.js",
+    "static/js/2.5b27f472.chunk.js.map": "/react-shopping-cart/static/js/2.5b27f472.chunk.js.map",
+    "index.html": "/react-shopping-cart/index.html",
+    "static/css/main.0e3b1f80.chunk.css.map": "/react-shopping-cart/static/css/main.0e3b1f80.chunk.css.map",
+    "static/js/2.5b27f472.chunk.js.LICENSE.txt": "/react-shopping-cart/static/js/2.5b27f472.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0854746b.js",
+    "static/js/2.5b27f472.chunk.js",
+    "static/css/main.0e3b1f80.chunk.css",
+    "static/js/main.41f714af.chunk.js"
+  ]
+}
