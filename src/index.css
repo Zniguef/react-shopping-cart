@@ -22,9 +22,10 @@ select {
 
 .grid-container {
   display: grid;
-  grid-template-areas: "header"
-                        "main"
-                        "footer";
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
   grid-template-rows: 5rem 1fr 5rem;
   grid-template-columns: 1fr;
   height: 100%;
@@ -44,7 +45,7 @@ header {
   color: #fff;
   display: flex;
   align-items: center;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 header a {
@@ -78,9 +79,7 @@ footer {
   flex: 1 20rem;
 }
 
-
-
-            /* Products */
+/* Products */
 
 .products {
   display: flex;
@@ -128,34 +127,34 @@ footer {
 
 .button {
   padding: 1rem;
-  border: .1rem #C0C0C0 solid;
+  border: 0.1rem #c0c0c0 solid;
   background-color: #f0f0f0;
   cursor: pointer;
 }
 
 .button:hover {
-  border: .1rem #808080 solid;
+  border: 0.1rem #808080 solid;
 }
 
 .button.primary {
   background-color: #f0c040;
 }
 
-                      /* Filter */
+/* Filter */
 
 .filter {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   margin: 1rem;
-  border-bottom: 0.1rem #C0C0C0 solid;
+  border-bottom: 0.1rem #c0c0c0 solid;
 }
 
 .filter div {
   flex: 1;
 }
 
-                    /* index.css */
+/* index.css */
 
 .cart {
   padding: 1rem;
@@ -164,7 +163,7 @@ footer {
 }
 
 .cart-header {
-  border-bottom: 0.1rem #C0C0C0 solid;
+  border-bottom: 0.1rem #c0c0c0 solid;
 }
 
 .cart-items {
@@ -182,7 +181,7 @@ footer {
 }
 
 .cart-items li div {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .cart-items li div:last-child {
@@ -209,7 +208,7 @@ footer {
   flex: 1;
 }
 
-                        /* Checkout form */
+/* Checkout form */
 form {
   width: 100%;
 }
@@ -227,10 +226,10 @@ form {
 
 input {
   padding: 1rem;
-  border: .1rem #C0C0C0 solid;
+  border: 0.1rem #c0c0c0 solid;
 }
 
-                                /* Product Details */
+/* Product Details */
 
 .product-details {
   display: flex;
@@ -256,4 +255,19 @@ input {
   top: 2.5rem;
   z-index: 1000;
   cursor: pointer;
+}
+
+@media (max-width: 699px) {
+  .filter {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .filter div {
+    margin: 0 0 20px 0;
+  }
+
+  .product-detail-description:nth-child(2) {
+    line-height: 1.7;
+  }
 }

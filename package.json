@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Zniguef.github.io/react-shopping-cart",
+  "homepage": "https://Zniguef.github.io/react-shopping-cart",
   "name": "react-shopping-cart",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +7,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-dom": "^17.0.1",
     "react-modal": "^3.12.1",
     "react-reveal": "^1.2.2",
