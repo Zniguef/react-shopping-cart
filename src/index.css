@@ -257,7 +257,19 @@ input {
   cursor: pointer;
 }
 
+
+/* media Query */
+
 @media (max-width: 699px) {
+
+  a {
+    text-align: center;
+  }
+
+  header {
+    justify-content: center;
+  }
+
   .filter {
     flex-direction: column;
     text-align: center;
@@ -269,5 +281,39 @@ input {
 
   .product-detail-description:nth-child(2) {
     line-height: 1.7;
+  }
+
+  select {
+    margin: 5px 0 0 12px;
+  }
+
+  .product-price {
+    flex-direction: column;
+  }
+
+  .product img {
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .button.primary {
+    margin: 20px 0;
+  }
+
+  .products li  {
+    margin: 45px 0 0 0;
+  }
+
+  .cart-header {
+    margin: 50px 0 0 0;
+    justify-content: center;
+  }
+
+  .ReactModal__Content {
+    inset: 0 !important;
+  }
+
+  .product-details img {
+    max-width: 27rem;
   }
 }
